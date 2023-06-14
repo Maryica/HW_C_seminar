@@ -9,7 +9,11 @@ if (number_1 > number_2)
 {
     Console.WriteLine("max = " + number_1 + ", min = " + number_2);
 }
-
+//можно добавить ветвление else if если числа равны, но в условии этого не было
+// else if (number_1 == number_2)
+// {
+//     Console.WriteLine(number_1 + " и " + number_2 + " равны");
+// }
 else
 {
     Console.WriteLine("max = " + number_2 + ", min = " + number_1);
