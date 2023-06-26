@@ -14,7 +14,7 @@ int Prompt(string message)
 
 
 
-void exponentiation(int a, int b)
+void Exponentiation(int a, int b)
 {
     int pr = 1;
 
@@ -28,4 +28,4 @@ void exponentiation(int a, int b)
 
 int number_A = Prompt("Введите число A: ");
 int number_B = Prompt("Введите число B: ");
-exponentiation(number_A, number_B);
+Exponentiation(number_A, number_B);
