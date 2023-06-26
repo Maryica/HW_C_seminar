@@ -12,7 +12,7 @@ string Prompt(string message)
     return number;
 }
 
-void palindrome(string num)
+void Palindrome(string num)
 {
     for (int i = num.Length - 1; i > -1; --i)
     {
@@ -30,7 +30,7 @@ void palindrome(string num)
 }
 
 string number = Prompt("Введите пятизначное число: ");
-palindrome(number);
+Palindrome(number);
 
 
 
