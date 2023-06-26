@@ -11,7 +11,7 @@ int Prompt(string message)
     return number;
 }
 
-void findingDistance3d(int ax, int ay, int az, int bx, int by, int bz)
+void FindingDistance3d(int ax, int ay, int az, int bx, int by, int bz)
 {
     double AB = Math.Sqrt((bx - ax) * (bx - ax) + (by - ay) * (by - ay) + (bz - az) * (bz - az));
     Console.WriteLine(AB);
