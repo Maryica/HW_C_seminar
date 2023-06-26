@@ -6,7 +6,7 @@
 
 
 int number = Prompt("Введите число: ");
-cubing(number);
+Cubing(number);
 
 int Prompt(string message)
 {
@@ -14,7 +14,7 @@ int Prompt(string message)
     int number = int.Parse(Console.ReadLine()!);
     return number;
 }
-void cubing(int num)
+void Cubing(int num)
 {
     for (int i = 1; i <= num; i++)
     {
